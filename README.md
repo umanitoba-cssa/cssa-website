@@ -2,13 +2,11 @@
 
 ## Install NodeJS
 
+### Setup instructions for Linux/MacOS
+
 #### Verify your environment (Linux/MacOS)
 
 Check to see whether NodeJS is already installed by running `node --version`. If this returns a version, you already have NodeJS installed. We will be using v10.15.3, so please make sure you're using this version.
-
-TODO: How to check whether you have NodeJS installed with Windows
-
-### Setup instructions for Linux/MacOS
 
 #### Install NodeJS using the Node Version Manager (NVM)
 
@@ -24,6 +22,12 @@ TODO: How to check whether you have NodeJS installed with Windows
 10. Delete the nvm install script `rm install_nvm.sh`
 
 ### Setup instructions for Windows
+
+#### Verify your environment
+
+TODO
+
+#### Install NodeJS v10.15.3 directly with msi file
 
 Grab the Windows Installer from this link:
 https://nodejs.org/dist/v10.15.3/node-v10.15.3-x86.msi
