@@ -1,4 +1,23 @@
-# cssa-website
+# Contributing
+
+## Set up Git
+
+#### Get Git
+
+Please follow instructions 1-3 [here].(https://help.github.com/en/articles/set-up-git)
+
+#### Clone repoistory
+
+```sh
+$ git clone https://github.com/umanitoba-cssa/cssa-website
+$ cd cssa-website
+```
+
+Please create a new branch before you start making changes.
+
+```sh
+$ git checkout -b Name-Of-My-New-Branch
+```
 
 ## Install NodeJS
 
@@ -38,7 +57,7 @@ TODO: Someone who installs with Windows please expand these instructions.
 
 ## Run the Application
 
-- First you will need to clone this repository onto your local machine.
+- Make sure you have already cloned the repository on your machine.
 - Open a command prompt
 - Change into the `cssa-website` directory
 - Run the command `npm install`
