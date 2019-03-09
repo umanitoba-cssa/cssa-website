@@ -1,9 +1,10 @@
 {
   "name": "cssa-website",
   "version": "1.0.0",
+  "private": true,
   "description": "",
-  "main": "src/index.js",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/umanitoba-cssa/cssa-website/issues"
   },
-  "homepage": "https://github.com/umanitoba-cssa/cssa-website#readme"
+  "homepage": "https://github.com/umanitoba-cssa/cssa-website#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
