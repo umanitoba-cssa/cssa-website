@@ -41,7 +41,7 @@ Check to see whether NodeJS is already installed by running `node --version`. If
    ```
 5. This script made some changes to your profile configuration. Reload the configuration.
    ```sh
-   $ source ~/.bashrc`
+   $ source ~/.bashrc
    ```
 6. Verify nvm installed.
    ```sh
