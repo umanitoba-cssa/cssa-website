@@ -4,7 +4,7 @@
 
 #### Get Git
 
-Please follow instructions 1-3 [here].(https://help.github.com/en/articles/set-up-git)
+Please follow instructions 1-3 https://help.github.com/en/articles/set-up-git
 
 #### Clone repoistory
 
@@ -30,15 +30,39 @@ Check to see whether NodeJS is already installed by running `node --version`. If
 #### Install NodeJS using the Node Version Manager (NVM)
 
 1. Open up a terminal
-2. Run `curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh`
+2. Get the installer script.
+   ```sh
+   $ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
+   ```
 3. Inspect the script you just downloaded by opening it with your favourite text editor (vim, vi, nano, et cetera...)
-4. Once you are satisfied with the contents of the script, run it with `bash install_nvm.sh`
-5. This script made some changes to your profile configuration. Reload the configuration by running `source ~/.bashrc`
-6. Verify nvm installed by running `nvm --version`
-7. Install the correct NodeJS version by running `nvm install 10.15.3`
-8. Verify the installation by running `node --version`
-9. Verify the package manager came with it by running `npm --version`
-10. Delete the nvm install script `rm install_nvm.sh`
+4. Once you are satisfied with the contents of the script, run it.
+   ```sh
+   $ bash install_nvm.sh
+   ```
+5. This script made some changes to your profile configuration. Reload the configuration.
+   ```sh
+   $ source ~/.bashrc`
+   ```
+6. Verify nvm installed.
+   ```sh
+   $ nvm --version
+   ```
+7. Install the correct NodeJS version by running 
+    ```sh
+     $ nvm install 10.15.3
+     ```
+8. Verify the installation.
+    ```sh
+    $ node --version
+    ```
+9. Verify the package manager came with it.
+    ```sh
+    $ npm --version
+    ```
+10. Delete the nvm installer script.
+    ```sh
+    $ rm install_nvm.sh
+    ```
 
 ### Setup instructions for Windows
 
