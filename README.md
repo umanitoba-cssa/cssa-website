@@ -33,3 +33,16 @@ Grab the Windows Installer from this link:
 https://nodejs.org/dist/v10.15.3/node-v10.15.3-x86.msi
 
 TODO: Someone who installs with Windows please expand these instructions.
+
+---
+
+## Run the Application
+
+- First you will need to clone this repository onto your local machine.
+- Open a command prompt
+- Change into the `cssa-website` directory
+- Run the command `npm install`
+- Run the command `npm start`
+- Navigate to 127.0.0.1:3000 in your web browser.
+
+
