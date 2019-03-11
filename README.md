@@ -68,14 +68,17 @@ Check to see whether NodeJS is already installed by running `node --version`. If
 
 #### Verify your environment
 
-TODO
+Check to see whether NodeJS is already installed by running `node --version` in the command prompt. If this returns a version, you already have NodeJS installed. We will be using v10.15.3, so please make sure you're using this version.
 
 #### Install NodeJS v10.15.3 directly with msi file
 
-Grab the Windows Installer from this link:
+1. Grab the Windows Installer from this link:
 https://nodejs.org/dist/v10.15.3/node-v10.15.3-x86.msi
 
-TODO: Someone who installs with Windows please expand these instructions.
+2. Run the installer and use all of the default settings for the install.
+
+3. If the installer finishes without any errors, you should be good to go! You can verify the installation by running the command 
+in the [Verify your environment](#verify-your-environment) section above.
 
 ---
 
