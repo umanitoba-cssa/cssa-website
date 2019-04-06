@@ -89,13 +89,7 @@ in the [Verify your environment](#verify-your-environment) section above.
 - Change into the `cssa-website` directory
 - Run the command `npm install`
 
-```bash
-git clone https://github.com/philnash/react-express-starter.git
-cd react-express-starter
-npm install
-```
-
-Create a `.env` file for environment variables in your server.
+Create a `.env` file for environment variables in your server. (It can be empty)
 
 You can start the server on its own with the command:
 
